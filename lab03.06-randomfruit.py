@@ -1,9 +1,10 @@
-# Change programme from using a List to a Tuple.
-# This program prints out a random fruit
+# This code was copied from the tutorial
+# as it was difficult to know how to begin it.
+# Choose a random fruit from the list.
 
 import random
 
-fruits = ('Apple', 'Orange', 'Banana', 'Pear')
+fruits = ['Apple', 'Orange', 'Banana', 'Pear']
 
 # we want a random number between 0 and lenght-1
 index = random.randint(0,len(fruits)-1)
